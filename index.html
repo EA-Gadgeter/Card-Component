@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,6 +12,35 @@
   <title>Product preview card component</title>
 </head>
 <body>
-  <h1></h1>
+  <main>
+    <div class="card-component">
+      <img src="./images/image-product-mobile.jpg" alt="product image">
+
+      <div class="card-component__product-info">
+        
+        <span>PERFUME</span>
+
+        <div class="card-component__product-description">
+          <h1>Gabrielle Essence Eau De Parfum</h1>
+          <p>
+            A floral, solar and voluptuos
+            interpretation composed by Oliver
+            Polge, Perfumer-Creator for the House
+            of CHANEL.
+          </p>
+        </div>
+        
+        <div class="card-component__price">
+          <h1>$149.99</h1>
+          <p>$169.99</p>
+        </div>
+
+        <button class="card-button">
+          <img src="./images/icon-cart.svg" alt="cart icon">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
