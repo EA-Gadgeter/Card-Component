@@ -1,0 +1,16 @@
+.card-component {
+    flex-direction: row;
+}
+
+.card-component .card-component__image {
+    border-radius: 1rem 0 0 1rem;
+}
+
+.card-component__product-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+    border-radius: 0 1rem 1rem 0;
+    height: 100%;
+}

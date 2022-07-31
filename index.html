@@ -9,13 +9,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./desktop.css" media="screen and (min-width: 530px)">
   <title>Product preview card component</title>
 </head>
 <body>
   <main>
     <div class="card-component">
-      <img src="./images/image-product-mobile.jpg" alt="product image">
 
+      <figure class="image-container">
+        <picture>
+          <source media="(min-width: 530px)" srcset="./images/image-product-desktop.jpg">
+          <img src="./images/image-product-mobile.jpg" class="card-component__image" alt="product image">
+        </picture>
+      </figure>
+      
       <div class="card-component__product-info">
         
         <span>PERFUME</span>
